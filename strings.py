@@ -3,7 +3,7 @@
 first = "\"Oscar\""
 last = "Chu's"
 
-# function for concat
+# function for concat. This is a formatted string
 fullname = f"{first} {last}"
 
 # function for showing string length

@@ -31,3 +31,12 @@ list = [1, 2, 4, 3]
 
 for x in list:
     print(x * 0.5)
+
+
+# Exercise to print ever even number between range(1, X). Then show how many even numbers count there are.
+count = 0
+for i in range(1, 200):
+    if i % 2 == 0:
+        count += 1
+        print(i)
+print(f"We have {count} even numbers")
