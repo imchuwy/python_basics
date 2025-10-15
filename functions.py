@@ -33,9 +33,8 @@ def increment(number, by=1, this=2):
 # print(increment(2, 1, 3))
 # print(increment(number=2, by=2, this=2))
 
-# Example 5. ARGs. Variable number of arguments
-# [] Tuples
-# () List
+# Example 5. ARGs. Variable number of arguments. Use *
+
 def multiply(*numbers):
     total = 1
     for number in numbers:
@@ -44,3 +43,6 @@ def multiply(*numbers):
 
 
 print(multiply(2, 3, 4, 5))
+
+# [] Tuples
+# () List
