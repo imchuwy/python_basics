@@ -19,3 +19,12 @@ find = fullname.find("car")
 in_method = "poo" not in fullname
 
 print(in_method)
+
+
+'''
+One useful method is split. This essentially is a delimiter
+'''
+
+message = 'I want donuts in ma belly'
+splitlist = message.split(' ')
+print(splitlist)
