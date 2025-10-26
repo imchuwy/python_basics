@@ -12,7 +12,6 @@ class Plant:
         print('growing slowly')
 
 
-
 ##Instead
 class Mammal:
     def walk(self):

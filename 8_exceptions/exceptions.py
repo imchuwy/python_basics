@@ -14,5 +14,6 @@ try:
     print(age)
 except ValueError: #This exception only captures errors of type ValueError
     print('Invalid value')
-except ZeroDivisionError:
+except ZeroDivisionError: #Exception for the division by 0 error
     print('Age cannot be 0')
+
